@@ -1,0 +1,14 @@
+-nologo
+-target:exe
+-platform:x64
+-optimize+
+-langversion:latest
+-nowarn:1701,1702,0219
+-out:bin\prueba.exe
+pruebas\Prueba.cs
+-lib:C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+-r:System.Numerics.dll
+-r:bin\AssetBankPlugin.dll
+-r:C:\Frosty\FrostySdk.dll
+-r:C:\Frosty\FrostyCore.dll
+-r:C:\Frosty\AssimpNet.dll

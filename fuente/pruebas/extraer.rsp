@@ -1,0 +1,10 @@
+-nologo
+-target:exe
+-platform:x64
+-optimize+
+-langversion:latest
+-nowarn:1701,1702
+-out:bin\extraer.exe
+pruebas\Extraer.cs
+-lib:C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+-r:C:\Frosty\FrostySdk.dll
